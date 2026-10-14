@@ -7,4 +7,12 @@ User provides the bound-state production run, its topology and its .mdp, plus on
 conda create -n abfe python=3.11 -y
 conda activate abfe    
 pip install -e abfeflow              
-abfeflow --version                         # 0.2.0
+abfeflow --version
+
+# Using ABFEFLOW
+
+1. abfeflow -c abfe.yaml setup
+2. abfeflow -c abfe.yaml check
+3. abfeflow -c abfe.yaml run
+4. abfeflow -c abfe.yaml analyze
+5. abfeflow -c abfe.yaml report                        
