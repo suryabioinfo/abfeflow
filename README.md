@@ -6,9 +6,11 @@ User provides the bound-state production run, its topology and its .mdp, plus on
 # Installation
 1. conda create -n abfe python=3.11 -y
 
-2. conda activate abfe    
-3. pip install -e abfeflow              
-4. abfeflow --version
+2. conda activate abfe
+3. git clone https://github.com/suryabioinfo/abfeflow.git
+4. cd abfeflow
+5. pip install -e abfeflow              
+6. abfeflow --version
 
 # Using ABFEFLOW
 
