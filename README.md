@@ -5,6 +5,7 @@ User provides the bound-state production run, its topology and its .mdp, plus on
 
 # Installation
 conda create -n abfe python=3.11 -y
+
 conda activate abfe    
 pip install -e abfeflow              
 abfeflow --version
