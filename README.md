@@ -4,11 +4,11 @@ An end-to-end workflow for absolute binding free energies (ABFE) of a neutral li
 User provides the bound-state production run, its topology and its .mdp, plus one YAML file. abfeflow does the rest!
 
 # Installation
-conda create -n abfe python=3.11 -y
+1. conda create -n abfe python=3.11 -y
 
-conda activate abfe    
-pip install -e abfeflow              
-abfeflow --version
+2. conda activate abfe    
+3. pip install -e abfeflow              
+4. abfeflow --version
 
 # Using ABFEFLOW
 
