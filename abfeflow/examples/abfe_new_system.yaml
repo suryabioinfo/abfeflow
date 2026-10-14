@@ -1,0 +1,15 @@
+# Minimal config for a new receptor/ligand on the 40-core + RTX A4000 workstation.
+project_dir: ABFE_run
+system:
+  production_tpr: md.tpr
+  production_xtc: md.xtc
+  production_mdp: md.mdp
+  topology: topol.top
+  ligand_moltype: LIG
+gromacs: {gmx: /home/user1/SOFT/GRO/2026-3/bin/gmx_mpi, gpu: true}
+hardware: {cores: 40, pinstride: 1}
+sampling:
+  stateA_window_ns: [100, 500]
+restraints:
+  exclude_residues: []          # flexible regions you know about, e.g. ["105-117"]
+reference: {dG_exp: null}
