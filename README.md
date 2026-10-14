@@ -19,7 +19,18 @@ User provides the bound-state production run, its topology and its .mdp, plus on
 5. abfeflow -c abfe.yaml report                        
 
 
+# The ABFE estimated for T4 -lysozyme bound to 2-propylephenol (PDB code: 3HTB) using the ABFEFLOW results are as below:
+
+# Thermodynamic Cycle
 <img width="1895" height="1049" alt="fig1_cycle" src="https://github.com/user-attachments/assets/0ca929bc-c518-463a-a8ed-b3cb48488115" />
 
-
+# Comparison of Binding Free Energies
 <img width="1358" height="734" alt="fig5_comparison" src="https://github.com/user-attachments/assets/4b3d3ee3-74ba-4f4d-92b7-888bcc08a9d0" />
+
+# Convergence
+
+<img width="2075" height="756" alt="fig3_convergence" src="https://github.com/user-attachments/assets/08672a18-8a02-481b-a071-d87c425948a8" />
+
+# Work Distribution
+
+<img width="2075" height="803" alt="fig2_work_distributions" src="https://github.com/user-attachments/assets/a481607b-d615-4675-aecb-f257315c9793" />
