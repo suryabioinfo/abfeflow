@@ -17,3 +17,9 @@ User provides the bound-state production run, its topology and its .mdp, plus on
 3. abfeflow -c abfe.yaml run
 4. abfeflow -c abfe.yaml analyze
 5. abfeflow -c abfe.yaml report                        
+
+
+<img width="1895" height="1049" alt="fig1_cycle" src="https://github.com/user-attachments/assets/0ca929bc-c518-463a-a8ed-b3cb48488115" />
+
+
+<img width="1358" height="734" alt="fig5_comparison" src="https://github.com/user-attachments/assets/4b3d3ee3-74ba-4f4d-92b7-888bcc08a9d0" />
